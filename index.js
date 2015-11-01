@@ -5,5 +5,5 @@ function Bear (type) {
 }
 
 Bear.prototype.growl = function (says) {
-	return 'The pppppppppppp' + this.type + ' bear says ' + (says || 'grrr');
+	return 'The ' + this.type + ' bear says ' + (says || 'grrr');
 };
